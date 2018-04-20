@@ -1,0 +1,20 @@
+<DataFile name="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff">
+  <protocol end_timestamp="1524003791.25909" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="q_image" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.39840030670166016" save_timestamp="1524003791.2593007" start_timestamp="1524003790.8606896"/>
+  <protocol end_timestamp="1524003791.5251112" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="circular_average" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.26515936851501465" save_timestamp="1524003791.525673" start_timestamp="1524003791.2599518"/>
+  <protocol end_timestamp="1524003791.5584905" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="thumbnails" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.03251957893371582" save_timestamp="1524003791.558688" start_timestamp="1524003791.525971">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/MAPLE3_110C_th0.130_1.00s_329958_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004136.0629866" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="q_image" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.3760097026824951" save_timestamp="1524004136.0632257" start_timestamp="1524004135.686977"/>
+  <protocol end_timestamp="1524004136.3126502" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="circular_average" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.24910259246826172" save_timestamp="1524004136.3128338" start_timestamp="1524004136.0635476"/>
+  <protocol end_timestamp="1524004136.3407395" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="thumbnails" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.027625322341918945" save_timestamp="1524004136.3409438" start_timestamp="1524004136.3131142">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/MAPLE3_110C_th0.130_1.00s_329958_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004604.3234594" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.19738483428955078" save_timestamp="1524004604.323689" start_timestamp="1524004604.1260746"/>
+  <protocol end_timestamp="1524004654.3590043" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.20942211151123047" save_timestamp="1524004654.3591945" start_timestamp="1524004654.1495821"/>
+  <protocol end_timestamp="1524004732.4997008" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.19667625427246094" save_timestamp="1524004732.4998991" start_timestamp="1524004732.3030245"/>
+  <protocol end_timestamp="1524058218.7289872" infile="../MAPLE3_110C_th0.130_1.00s_329958_maxs.tiff" name="qr_image" outfile="./results/MAPLE3_110C_th0.130_1.00s_329958_maxs.xml" output_dir="./results" runtime="0.39476990699768066" save_timestamp="1524058218.7310433" start_timestamp="1524058218.3342173"/>
+</DataFile>

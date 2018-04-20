@@ -1,0 +1,11 @@
+<DataFile name="../SpinC_MEG_110C_th0.150_10.00s_331451_maxs.tiff">
+  <protocol end_timestamp="1524024075.5638435" infile="../SpinC_MEG_110C_th0.150_10.00s_331451_maxs.tiff" name="q_image" outfile="./results/SpinC_MEG_110C_th0.150_10.00s_331451_maxs.xml" output_dir="./results" runtime="0.39923763275146484" save_timestamp="1524024075.563994" start_timestamp="1524024075.1646059"/>
+  <protocol end_timestamp="1524024075.8428838" infile="../SpinC_MEG_110C_th0.150_10.00s_331451_maxs.tiff" name="circular_average" outfile="./results/SpinC_MEG_110C_th0.150_10.00s_331451_maxs.xml" output_dir="./results" runtime="0.27826857566833496" save_timestamp="1524024075.8435428" start_timestamp="1524024075.5646152"/>
+  <protocol end_timestamp="1524024076.131435" infile="../SpinC_MEG_110C_th0.150_10.00s_331451_maxs.tiff" name="linecut_angle" outfile="./results/SpinC_MEG_110C_th0.150_10.00s_331451_maxs.xml" output_dir="./results" runtime="0.2875356674194336" save_timestamp="1524024076.1316245" start_timestamp="1524024075.8438993"/>
+  <protocol end_timestamp="1524024076.1597471" infile="../SpinC_MEG_110C_th0.150_10.00s_331451_maxs.tiff" name="thumbnails" outfile="./results/SpinC_MEG_110C_th0.150_10.00s_331451_maxs.xml" output_dir="./results" runtime="0.027745962142944336" save_timestamp="1524024076.1599503" start_timestamp="1524024076.1320012">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/SpinC_MEG_110C_th0.150_10.00s_331451_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524058304.4517443" infile="../SpinC_MEG_110C_th0.150_10.00s_331451_maxs.tiff" name="qr_image" outfile="./results/SpinC_MEG_110C_th0.150_10.00s_331451_maxs.xml" output_dir="./results" runtime="0.4599173069000244" save_timestamp="1524058304.4542391" start_timestamp="1524058303.991827"/>
+</DataFile>

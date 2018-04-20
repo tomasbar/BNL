@@ -1,0 +1,11 @@
+<DataFile name="../MAPLE_LED_th0.180_10.00s_331758_maxs.tiff">
+  <protocol end_timestamp="1524028750.2159286" infile="../MAPLE_LED_th0.180_10.00s_331758_maxs.tiff" name="q_image" outfile="./results/MAPLE_LED_th0.180_10.00s_331758_maxs.xml" output_dir="./results" runtime="0.3475489616394043" save_timestamp="1524028750.2161462" start_timestamp="1524028749.8683796"/>
+  <protocol end_timestamp="1524028750.523785" infile="../MAPLE_LED_th0.180_10.00s_331758_maxs.tiff" name="circular_average" outfile="./results/MAPLE_LED_th0.180_10.00s_331758_maxs.xml" output_dir="./results" runtime="0.3071558475494385" save_timestamp="1524028750.5243714" start_timestamp="1524028750.2166293"/>
+  <protocol end_timestamp="1524028750.8636484" infile="../MAPLE_LED_th0.180_10.00s_331758_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE_LED_th0.180_10.00s_331758_maxs.xml" output_dir="./results" runtime="0.33893513679504395" save_timestamp="1524028750.8638937" start_timestamp="1524028750.5247133"/>
+  <protocol end_timestamp="1524028750.893617" infile="../MAPLE_LED_th0.180_10.00s_331758_maxs.tiff" name="thumbnails" outfile="./results/MAPLE_LED_th0.180_10.00s_331758_maxs.xml" output_dir="./results" runtime="0.029407262802124023" save_timestamp="1524028750.893967" start_timestamp="1524028750.8642097">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/MAPLE_LED_th0.180_10.00s_331758_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524058262.7872844" infile="../MAPLE_LED_th0.180_10.00s_331758_maxs.tiff" name="qr_image" outfile="./results/MAPLE_LED_th0.180_10.00s_331758_maxs.xml" output_dir="./results" runtime="0.45929384231567383" save_timestamp="1524058262.789186" start_timestamp="1524058262.3279905"/>
+</DataFile>

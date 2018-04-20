@@ -1,0 +1,12 @@
+<DataFile name="../MAPLE5_110C_th0.150_10.00s_330384_maxs.tiff">
+  <protocol end_timestamp="1524004616.536434" infile="../MAPLE5_110C_th0.150_10.00s_330384_maxs.tiff" name="q_image" outfile="./results/MAPLE5_110C_th0.150_10.00s_330384_maxs.xml" output_dir="./results" runtime="0.3108222484588623" save_timestamp="1524004616.5365627" start_timestamp="1524004616.2256117"/>
+  <protocol end_timestamp="1524004616.8635983" infile="../MAPLE5_110C_th0.150_10.00s_330384_maxs.tiff" name="circular_average" outfile="./results/MAPLE5_110C_th0.150_10.00s_330384_maxs.xml" output_dir="./results" runtime="0.3264656066894531" save_timestamp="1524004616.8641622" start_timestamp="1524004616.5371327"/>
+  <protocol end_timestamp="1524004617.0630333" infile="../MAPLE5_110C_th0.150_10.00s_330384_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE5_110C_th0.150_10.00s_330384_maxs.xml" output_dir="./results" runtime="0.19854521751403809" save_timestamp="1524004617.0632124" start_timestamp="1524004616.8644881"/>
+  <protocol end_timestamp="1524004617.0909312" infile="../MAPLE5_110C_th0.150_10.00s_330384_maxs.tiff" name="thumbnails" outfile="./results/MAPLE5_110C_th0.150_10.00s_330384_maxs.xml" output_dir="./results" runtime="0.02740025520324707" save_timestamp="1524004617.0911107" start_timestamp="1524004617.063531">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/MAPLE5_110C_th0.150_10.00s_330384_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004741.9478636" infile="../MAPLE5_110C_th0.150_10.00s_330384_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE5_110C_th0.150_10.00s_330384_maxs.xml" output_dir="./results" runtime="0.20067715644836426" save_timestamp="1524004741.9480422" start_timestamp="1524004741.7471864"/>
+  <protocol end_timestamp="1524058241.2093396" infile="../MAPLE5_110C_th0.150_10.00s_330384_maxs.tiff" name="qr_image" outfile="./results/MAPLE5_110C_th0.150_10.00s_330384_maxs.xml" output_dir="./results" runtime="0.4906349182128906" save_timestamp="1524058241.211406" start_timestamp="1524058240.7187047"/>
+</DataFile>

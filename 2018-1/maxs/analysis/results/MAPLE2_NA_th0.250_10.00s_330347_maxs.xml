@@ -1,0 +1,13 @@
+<DataFile name="../MAPLE2_NA_th0.250_10.00s_330347_maxs.tiff">
+  <protocol end_timestamp="1524004133.9522805" infile="../MAPLE2_NA_th0.250_10.00s_330347_maxs.tiff" name="q_image" outfile="./results/MAPLE2_NA_th0.250_10.00s_330347_maxs.xml" output_dir="./results" runtime="0.33423781394958496" save_timestamp="1524004133.9524558" start_timestamp="1524004133.6180427"/>
+  <protocol end_timestamp="1524004134.2303605" infile="../MAPLE2_NA_th0.250_10.00s_330347_maxs.tiff" name="circular_average" outfile="./results/MAPLE2_NA_th0.250_10.00s_330347_maxs.xml" output_dir="./results" runtime="0.2772862911224365" save_timestamp="1524004134.2317524" start_timestamp="1524004133.9530742"/>
+  <protocol end_timestamp="1524004134.2599673" infile="../MAPLE2_NA_th0.250_10.00s_330347_maxs.tiff" name="thumbnails" outfile="./results/MAPLE2_NA_th0.250_10.00s_330347_maxs.xml" output_dir="./results" runtime="0.02791762351989746" save_timestamp="1524004134.260146" start_timestamp="1524004134.2320497">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/MAPLE2_NA_th0.250_10.00s_330347_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004603.526413" infile="../MAPLE2_NA_th0.250_10.00s_330347_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE2_NA_th0.250_10.00s_330347_maxs.xml" output_dir="./results" runtime="0.21281647682189941" save_timestamp="1524004603.5265872" start_timestamp="1524004603.3135965"/>
+  <protocol end_timestamp="1524004653.627406" infile="../MAPLE2_NA_th0.250_10.00s_330347_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE2_NA_th0.250_10.00s_330347_maxs.xml" output_dir="./results" runtime="0.2221078872680664" save_timestamp="1524004653.6275895" start_timestamp="1524004653.405298"/>
+  <protocol end_timestamp="1524004731.8285968" infile="../MAPLE2_NA_th0.250_10.00s_330347_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE2_NA_th0.250_10.00s_330347_maxs.xml" output_dir="./results" runtime="0.20398569107055664" save_timestamp="1524004731.8287818" start_timestamp="1524004731.6246111"/>
+  <protocol end_timestamp="1524058217.0571303" infile="../MAPLE2_NA_th0.250_10.00s_330347_maxs.tiff" name="qr_image" outfile="./results/MAPLE2_NA_th0.250_10.00s_330347_maxs.xml" output_dir="./results" runtime="0.4915275573730469" save_timestamp="1524058217.059623" start_timestamp="1524058216.5656028"/>
+</DataFile>

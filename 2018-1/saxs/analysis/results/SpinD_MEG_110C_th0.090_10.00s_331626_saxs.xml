@@ -1,0 +1,8 @@
+<DataFile name="../SpinD_MEG_110C_th0.090_10.00s_331626_saxs.tiff">
+  <protocol end_timestamp="1524027024.7850332" infile="../SpinD_MEG_110C_th0.090_10.00s_331626_saxs.tiff" name="q_image" outfile="./results/SpinD_MEG_110C_th0.090_10.00s_331626_saxs.xml" output_dir="./results" runtime="0.7170450687408447" save_timestamp="1524027024.7851691" start_timestamp="1524027024.0679882" />
+  <protocol end_timestamp="1524027025.3043098" infile="../SpinD_MEG_110C_th0.090_10.00s_331626_saxs.tiff" name="thumbnails" outfile="./results/SpinD_MEG_110C_th0.090_10.00s_331626_saxs.xml" output_dir="./results" runtime="0.5185394287109375" save_timestamp="1524027025.3048253" start_timestamp="1524027024.7857704">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/SpinD_MEG_110C_th0.090_10.00s_331626_saxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}" />
+    </result>
+  </protocol>
+<protocol end_timestamp="1524058590.71444" infile="../SpinD_MEG_110C_th0.090_10.00s_331626_saxs.tiff" name="linecut_qr" outfile="./results/SpinD_MEG_110C_th0.090_10.00s_331626_saxs.xml" output_dir="./results" runtime="0.3734099864959717" save_timestamp="1524058590.728073" start_timestamp="1524058590.3410301" /><protocol end_timestamp="1524058591.4783335" infile="../SpinD_MEG_110C_th0.090_10.00s_331626_saxs.tiff" name="q_image" outfile="./results/SpinD_MEG_110C_th0.090_10.00s_331626_saxs.xml" output_dir="./results" runtime="0.7488927841186523" save_timestamp="1524058591.478586" start_timestamp="1524058590.7294407" /></DataFile>

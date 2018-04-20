@@ -1,0 +1,8 @@
+<DataFile name="../test_th0.287_3.00s_329581_saxs.tiff">
+  <protocol end_timestamp="1524000634.7777236" infile="../test_th0.287_3.00s_329581_saxs.tiff" name="q_image" outfile="./results/test_th0.287_3.00s_329581_saxs.xml" output_dir="./results" runtime="0.7148878574371338" save_timestamp="1524000634.7778692" start_timestamp="1524000634.0628357" />
+  <protocol end_timestamp="1524000635.326346" infile="../test_th0.287_3.00s_329581_saxs.tiff" name="thumbnails" outfile="./results/test_th0.287_3.00s_329581_saxs.xml" output_dir="./results" runtime="0.5477938652038574" save_timestamp="1524000635.3268735" start_timestamp="1524000634.778552">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/test_th0.287_3.00s_329581_saxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}" />
+    </result>
+  </protocol>
+<protocol end_timestamp="1524058690.1192842" infile="../test_th0.287_3.00s_329581_saxs.tiff" name="linecut_qr" outfile="./results/test_th0.287_3.00s_329581_saxs.xml" output_dir="./results" runtime="0.3680398464202881" save_timestamp="1524058690.1219664" start_timestamp="1524058689.7512443" /><protocol end_timestamp="1524058690.8535948" infile="../test_th0.287_3.00s_329581_saxs.tiff" name="q_image" outfile="./results/test_th0.287_3.00s_329581_saxs.xml" output_dir="./results" runtime="0.7302355766296387" save_timestamp="1524058690.853841" start_timestamp="1524058690.1233592" /></DataFile>

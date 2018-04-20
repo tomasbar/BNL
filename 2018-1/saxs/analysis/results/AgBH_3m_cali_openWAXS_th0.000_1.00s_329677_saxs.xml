@@ -1,0 +1,9 @@
+<DataFile name="../AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.tiff">
+  <protocol end_timestamp="1524000433.7912972" infile="../AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.tiff" name="q_image" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.xml" output_dir="./results" runtime="0.9109780788421631" save_timestamp="1524000433.7914526" start_timestamp="1524000432.880319" />
+  <protocol end_timestamp="1524000434.5035217" infile="../AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.tiff" name="thumbnails" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.xml" output_dir="./results" runtime="0.7112123966217041" save_timestamp="1524000434.5041564" start_timestamp="1524000433.7923093">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}" />
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524057367.1267922" infile="../AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.tiff" name="q_image" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.xml" output_dir="./results" runtime="0.7284185886383057" save_timestamp="1524057367.128122" start_timestamp="1524057366.3983736" />
+<protocol end_timestamp="1524058174.1107001" infile="../AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.tiff" name="linecut_qr" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.xml" output_dir="./results" runtime="0.24483108520507812" save_timestamp="1524058174.1108758" start_timestamp="1524058173.865869" /><protocol end_timestamp="1524058174.7908912" infile="../AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.tiff" name="q_image" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_1.00s_329677_saxs.xml" output_dir="./results" runtime="0.6796655654907227" save_timestamp="1524058174.79115" start_timestamp="1524058174.1112256" /></DataFile>

@@ -1,0 +1,12 @@
+<DataFile name="../MAPLE5_NA_th0.200_10.00s_330378_maxs.tiff">
+  <protocol end_timestamp="1524004466.334384" infile="../MAPLE5_NA_th0.200_10.00s_330378_maxs.tiff" name="q_image" outfile="./results/MAPLE5_NA_th0.200_10.00s_330378_maxs.xml" output_dir="./results" runtime="0.41399359703063965" save_timestamp="1524004466.3345296" start_timestamp="1524004465.9203904"/>
+  <protocol end_timestamp="1524004466.6188474" infile="../MAPLE5_NA_th0.200_10.00s_330378_maxs.tiff" name="circular_average" outfile="./results/MAPLE5_NA_th0.200_10.00s_330378_maxs.xml" output_dir="./results" runtime="0.2838318347930908" save_timestamp="1524004466.6196713" start_timestamp="1524004466.3350155"/>
+  <protocol end_timestamp="1524004466.6498473" infile="../MAPLE5_NA_th0.200_10.00s_330378_maxs.tiff" name="thumbnails" outfile="./results/MAPLE5_NA_th0.200_10.00s_330378_maxs.xml" output_dir="./results" runtime="0.029796838760375977" save_timestamp="1524004466.6500587" start_timestamp="1524004466.6200504">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/MAPLE5_NA_th0.200_10.00s_330378_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004621.1249838" infile="../MAPLE5_NA_th0.200_10.00s_330378_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE5_NA_th0.200_10.00s_330378_maxs.xml" output_dir="./results" runtime="0.24765324592590332" save_timestamp="1524004621.1251574" start_timestamp="1524004620.8773305"/>
+  <protocol end_timestamp="1524004744.2003822" infile="../MAPLE5_NA_th0.200_10.00s_330378_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE5_NA_th0.200_10.00s_330378_maxs.xml" output_dir="./results" runtime="0.20489263534545898" save_timestamp="1524004744.2005825" start_timestamp="1524004743.9954896"/>
+  <protocol end_timestamp="1524058246.4995906" infile="../MAPLE5_NA_th0.200_10.00s_330378_maxs.tiff" name="qr_image" outfile="./results/MAPLE5_NA_th0.200_10.00s_330378_maxs.xml" output_dir="./results" runtime="0.45356154441833496" save_timestamp="1524058246.5021024" start_timestamp="1524058246.046029"/>
+</DataFile>

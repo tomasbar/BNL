@@ -1,0 +1,12 @@
+<DataFile name="../MAPLE4_NA_th0.220_10.00s_330363_maxs.tiff">
+  <protocol end_timestamp="1524004191.6215262" infile="../MAPLE4_NA_th0.220_10.00s_330363_maxs.tiff" name="q_image" outfile="./results/MAPLE4_NA_th0.220_10.00s_330363_maxs.xml" output_dir="./results" runtime="0.3104360103607178" save_timestamp="1524004191.6216702" start_timestamp="1524004191.3110902"/>
+  <protocol end_timestamp="1524004191.951249" infile="../MAPLE4_NA_th0.220_10.00s_330363_maxs.tiff" name="circular_average" outfile="./results/MAPLE4_NA_th0.220_10.00s_330363_maxs.xml" output_dir="./results" runtime="0.3289673328399658" save_timestamp="1524004191.9521458" start_timestamp="1524004191.6222816"/>
+  <protocol end_timestamp="1524004191.979864" infile="../MAPLE4_NA_th0.220_10.00s_330363_maxs.tiff" name="thumbnails" outfile="./results/MAPLE4_NA_th0.220_10.00s_330363_maxs.xml" output_dir="./results" runtime="0.02733325958251953" save_timestamp="1524004191.9800813" start_timestamp="1524004191.9525306">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/MAPLE4_NA_th0.220_10.00s_330363_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004613.161371" infile="../MAPLE4_NA_th0.220_10.00s_330363_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE4_NA_th0.220_10.00s_330363_maxs.xml" output_dir="./results" runtime="0.26924610137939453" save_timestamp="1524004613.1616158" start_timestamp="1524004612.892125"/>
+  <protocol end_timestamp="1524004740.8503044" infile="../MAPLE4_NA_th0.220_10.00s_330363_maxs.tiff" name="linecut_angle" outfile="./results/MAPLE4_NA_th0.220_10.00s_330363_maxs.xml" output_dir="./results" runtime="0.2623560428619385" save_timestamp="1524004740.8504772" start_timestamp="1524004740.5879483"/>
+  <protocol end_timestamp="1524058238.495227" infile="../MAPLE4_NA_th0.220_10.00s_330363_maxs.tiff" name="qr_image" outfile="./results/MAPLE4_NA_th0.220_10.00s_330363_maxs.xml" output_dir="./results" runtime="0.5312514305114746" save_timestamp="1524058238.512626" start_timestamp="1524058237.9639757"/>
+</DataFile>

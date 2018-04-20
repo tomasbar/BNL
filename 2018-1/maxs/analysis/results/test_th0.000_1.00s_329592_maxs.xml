@@ -1,0 +1,13 @@
+<DataFile name="../test_th0.000_1.00s_329592_maxs.tiff">
+  <protocol end_timestamp="1524001484.5173905" infile="../test_th0.000_1.00s_329592_maxs.tiff" name="calibration_check" outfile="./results/test_th0.000_1.00s_329592_maxs.xml" output_dir="./results" runtime="4.449484348297119" save_timestamp="1524001484.5175161" start_timestamp="1524001480.0679061"/>
+  <protocol end_timestamp="1524004179.6644022" infile="../test_th0.000_1.00s_329592_maxs.tiff" name="q_image" outfile="./results/test_th0.000_1.00s_329592_maxs.xml" output_dir="./results" runtime="0.37351465225219727" save_timestamp="1524004179.682781" start_timestamp="1524004179.2908876"/>
+  <protocol end_timestamp="1524004179.9384003" infile="../test_th0.000_1.00s_329592_maxs.tiff" name="circular_average" outfile="./results/test_th0.000_1.00s_329592_maxs.xml" output_dir="./results" runtime="0.25455355644226074" save_timestamp="1524004179.9386218" start_timestamp="1524004179.6838467"/>
+  <protocol end_timestamp="1524004179.971056" infile="../test_th0.000_1.00s_329592_maxs.tiff" name="thumbnails" outfile="./results/test_th0.000_1.00s_329592_maxs.xml" output_dir="./results" runtime="0.03200054168701172" save_timestamp="1524004179.971252" start_timestamp="1524004179.9390554">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/test_th0.000_1.00s_329592_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004629.3239243" infile="../test_th0.000_1.00s_329592_maxs.tiff" name="linecut_angle" outfile="./results/test_th0.000_1.00s_329592_maxs.xml" output_dir="./results" runtime="0.21101593971252441" save_timestamp="1524004629.324096" start_timestamp="1524004629.1129084"/>
+  <protocol end_timestamp="1524004751.163084" infile="../test_th0.000_1.00s_329592_maxs.tiff" name="linecut_angle" outfile="./results/test_th0.000_1.00s_329592_maxs.xml" output_dir="./results" runtime="0.21443629264831543" save_timestamp="1524004751.163263" start_timestamp="1524004750.9486477"/>
+  <protocol end_timestamp="1524058343.018241" infile="../test_th0.000_1.00s_329592_maxs.tiff" name="qr_image" outfile="./results/test_th0.000_1.00s_329592_maxs.xml" output_dir="./results" runtime="0.3913266658782959" save_timestamp="1524058343.0312927" start_timestamp="1524058342.6269143"/>
+</DataFile>

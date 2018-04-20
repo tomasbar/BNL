@@ -1,0 +1,21 @@
+<DataFile name="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff">
+  <protocol end_timestamp="1524003752.6380935" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="q_image" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.3173787593841553" save_timestamp="1524003752.638241" start_timestamp="1524003752.3207147"/>
+  <protocol end_timestamp="1524003752.977787" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="circular_average" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.33910560607910156" save_timestamp="1524003752.9785705" start_timestamp="1524003752.6386814"/>
+  <protocol end_timestamp="1524003753.0076592" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="thumbnails" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.028795719146728516" save_timestamp="1524003753.0079026" start_timestamp="1524003752.9788635">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004114.8319092" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="q_image" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.3228299617767334" save_timestamp="1524004114.8321004" start_timestamp="1524004114.5090792"/>
+  <protocol end_timestamp="1524004115.1630254" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="circular_average" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.3305678367614746" save_timestamp="1524004115.163242" start_timestamp="1524004114.8324575"/>
+  <protocol end_timestamp="1524004115.1893704" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="thumbnails" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.025830984115600586" save_timestamp="1524004115.1895769" start_timestamp="1524004115.1635394">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004494.460978" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="linecut_angle" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="1.088984489440918" save_timestamp="1524004494.4612024" start_timestamp="1524004493.3719935"/>
+  <protocol end_timestamp="1524004597.2730489" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="linecut_angle" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.1976032257080078" save_timestamp="1524004597.2732344" start_timestamp="1524004597.0754457"/>
+  <protocol end_timestamp="1524004646.5841887" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="linecut_angle" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.21959519386291504" save_timestamp="1524004646.584379" start_timestamp="1524004646.3645935"/>
+  <protocol end_timestamp="1524004726.0244422" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="linecut_angle" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.21117544174194336" save_timestamp="1524004726.0246398" start_timestamp="1524004725.8132668"/>
+  <protocol end_timestamp="1524058202.8249514" infile="../AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.tiff" name="qr_image" outfile="./results/AgBH_3m_cali_openWAXS_th0.000_5.00s_329602_maxs.xml" output_dir="./results" runtime="0.49971532821655273" save_timestamp="1524058202.8407197" start_timestamp="1524058202.325236"/>
+</DataFile>

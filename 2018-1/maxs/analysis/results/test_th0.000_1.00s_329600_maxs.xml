@@ -1,0 +1,12 @@
+<DataFile name="../test_th0.000_1.00s_329600_maxs.tiff">
+  <protocol end_timestamp="1524004186.0617208" infile="../test_th0.000_1.00s_329600_maxs.tiff" name="q_image" outfile="./results/test_th0.000_1.00s_329600_maxs.xml" output_dir="./results" runtime="0.3417391777038574" save_timestamp="1524004186.0618587" start_timestamp="1524004185.7199817"/>
+  <protocol end_timestamp="1524004186.3713381" infile="../test_th0.000_1.00s_329600_maxs.tiff" name="circular_average" outfile="./results/test_th0.000_1.00s_329600_maxs.xml" output_dir="./results" runtime="0.30889296531677246" save_timestamp="1524004186.371828" start_timestamp="1524004186.0624452"/>
+  <protocol end_timestamp="1524004186.4053833" infile="../test_th0.000_1.00s_329600_maxs.tiff" name="thumbnails" outfile="./results/test_th0.000_1.00s_329600_maxs.xml" output_dir="./results" runtime="0.03322625160217285" save_timestamp="1524004186.4055572" start_timestamp="1524004186.372157">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/test_th0.000_1.00s_329600_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004631.0900204" infile="../test_th0.000_1.00s_329600_maxs.tiff" name="linecut_angle" outfile="./results/test_th0.000_1.00s_329600_maxs.xml" output_dir="./results" runtime="0.20709466934204102" save_timestamp="1524004631.0901887" start_timestamp="1524004630.8829257"/>
+  <protocol end_timestamp="1524004752.9758563" infile="../test_th0.000_1.00s_329600_maxs.tiff" name="linecut_angle" outfile="./results/test_th0.000_1.00s_329600_maxs.xml" output_dir="./results" runtime="0.21395516395568848" save_timestamp="1524004752.9760313" start_timestamp="1524004752.7619011"/>
+  <protocol end_timestamp="1524058347.135256" infile="../test_th0.000_1.00s_329600_maxs.tiff" name="qr_image" outfile="./results/test_th0.000_1.00s_329600_maxs.xml" output_dir="./results" runtime="0.4601008892059326" save_timestamp="1524058347.137234" start_timestamp="1524058346.6751552"/>
+</DataFile>

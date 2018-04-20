@@ -1,0 +1,8 @@
+<DataFile name="../SpinA_MEG_110C_th0.090_10.00s_330558_saxs.tiff">
+  <protocol end_timestamp="1524007645.2391386" infile="../SpinA_MEG_110C_th0.090_10.00s_330558_saxs.tiff" name="q_image" outfile="./results/SpinA_MEG_110C_th0.090_10.00s_330558_saxs.xml" output_dir="./results" runtime="0.8449389934539795" save_timestamp="1524007645.2392993" start_timestamp="1524007644.3941996" />
+  <protocol end_timestamp="1524007645.7887063" infile="../SpinA_MEG_110C_th0.090_10.00s_330558_saxs.tiff" name="thumbnails" outfile="./results/SpinA_MEG_110C_th0.090_10.00s_330558_saxs.xml" output_dir="./results" runtime="0.5488417148590088" save_timestamp="1524007645.7893245" start_timestamp="1524007645.2398646">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/SpinA_MEG_110C_th0.090_10.00s_330558_saxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}" />
+    </result>
+  </protocol>
+<protocol end_timestamp="1524058362.1469858" infile="../SpinA_MEG_110C_th0.090_10.00s_330558_saxs.tiff" name="linecut_qr" outfile="./results/SpinA_MEG_110C_th0.090_10.00s_330558_saxs.xml" output_dir="./results" runtime="0.3041257858276367" save_timestamp="1524058362.1485703" start_timestamp="1524058361.84286" /><protocol end_timestamp="1524058362.9346504" infile="../SpinA_MEG_110C_th0.090_10.00s_330558_saxs.tiff" name="q_image" outfile="./results/SpinA_MEG_110C_th0.090_10.00s_330558_saxs.xml" output_dir="./results" runtime="0.7851121425628662" save_timestamp="1524058362.9348931" start_timestamp="1524058362.1495383" /></DataFile>

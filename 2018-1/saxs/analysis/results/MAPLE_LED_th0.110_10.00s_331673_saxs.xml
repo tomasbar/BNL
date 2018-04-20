@@ -1,0 +1,8 @@
+<DataFile name="../MAPLE_LED_th0.110_10.00s_331673_saxs.tiff">
+  <protocol end_timestamp="1524027489.2531729" infile="../MAPLE_LED_th0.110_10.00s_331673_saxs.tiff" name="q_image" outfile="./results/MAPLE_LED_th0.110_10.00s_331673_saxs.xml" output_dir="./results" runtime="0.7384519577026367" save_timestamp="1524027489.2533028" start_timestamp="1524027488.514721" />
+  <protocol end_timestamp="1524027489.7886972" infile="../MAPLE_LED_th0.110_10.00s_331673_saxs.tiff" name="thumbnails" outfile="./results/MAPLE_LED_th0.110_10.00s_331673_saxs.xml" output_dir="./results" runtime="0.534799337387085" save_timestamp="1524027489.7892535" start_timestamp="1524027489.253898">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/MAPLE_LED_th0.110_10.00s_331673_saxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}" />
+    </result>
+  </protocol>
+<protocol end_timestamp="1524058352.5894046" infile="../MAPLE_LED_th0.110_10.00s_331673_saxs.tiff" name="linecut_qr" outfile="./results/MAPLE_LED_th0.110_10.00s_331673_saxs.xml" output_dir="./results" runtime="0.30843186378479004" save_timestamp="1524058352.5898829" start_timestamp="1524058352.2809727" /><protocol end_timestamp="1524058353.3543885" infile="../MAPLE_LED_th0.110_10.00s_331673_saxs.tiff" name="q_image" outfile="./results/MAPLE_LED_th0.110_10.00s_331673_saxs.xml" output_dir="./results" runtime="0.7631697654724121" save_timestamp="1524058353.3546252" start_timestamp="1524058352.5912187" /></DataFile>

@@ -1,0 +1,12 @@
+<DataFile name="../test_39.3s_T-15.585C_2.00s_329532_maxs.tiff">
+  <protocol end_timestamp="1524004171.2041206" infile="../test_39.3s_T-15.585C_2.00s_329532_maxs.tiff" name="q_image" outfile="./results/test_39.3s_T-15.585C_2.00s_329532_maxs.xml" output_dir="./results" runtime="0.4120609760284424" save_timestamp="1524004171.2042732" start_timestamp="1524004170.7920597"/>
+  <protocol end_timestamp="1524004171.4609" infile="../test_39.3s_T-15.585C_2.00s_329532_maxs.tiff" name="circular_average" outfile="./results/test_39.3s_T-15.585C_2.00s_329532_maxs.xml" output_dir="./results" runtime="0.2560770511627197" save_timestamp="1524004171.4618084" start_timestamp="1524004171.204823"/>
+  <protocol end_timestamp="1524004171.4905405" infile="../test_39.3s_T-15.585C_2.00s_329532_maxs.tiff" name="thumbnails" outfile="./results/test_39.3s_T-15.585C_2.00s_329532_maxs.xml" output_dir="./results" runtime="0.028345823287963867" save_timestamp="1524004171.4907162" start_timestamp="1524004171.4621947">
+    <result name="files_saved" type="list">
+      <element index="0" value="{'filename': './thumbnails/test_39.3s_T-15.585C_2.00s_329532_maxs.jpg', 'description': 'quick view (thumbnail) image', 'type': 'plot'}"/>
+    </result>
+  </protocol>
+  <protocol end_timestamp="1524004626.9295433" infile="../test_39.3s_T-15.585C_2.00s_329532_maxs.tiff" name="linecut_angle" outfile="./results/test_39.3s_T-15.585C_2.00s_329532_maxs.xml" output_dir="./results" runtime="0.19214320182800293" save_timestamp="1524004626.9297159" start_timestamp="1524004626.7374"/>
+  <protocol end_timestamp="1524004748.6554084" infile="../test_39.3s_T-15.585C_2.00s_329532_maxs.tiff" name="linecut_angle" outfile="./results/test_39.3s_T-15.585C_2.00s_329532_maxs.xml" output_dir="./results" runtime="0.1984114646911621" save_timestamp="1524004748.655611" start_timestamp="1524004748.456997"/>
+  <protocol end_timestamp="1524058337.1288962" infile="../test_39.3s_T-15.585C_2.00s_329532_maxs.tiff" name="qr_image" outfile="./results/test_39.3s_T-15.585C_2.00s_329532_maxs.xml" output_dir="./results" runtime="0.37147068977355957" save_timestamp="1524058337.1355827" start_timestamp="1524058336.7574255"/>
+</DataFile>
