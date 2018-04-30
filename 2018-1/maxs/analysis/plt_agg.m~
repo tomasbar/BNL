@@ -5,25 +5,18 @@ clear all
 clc
 %% PLOT MAPLE
 %Load sample filenames to be plotted
+img_NA = dir('MAPLE2_NA*');
+img_ANNEAL = dir('MAPLE2_110C*');
 
-%Sample identifiers
-ID_MAPLE = ['2','3','4','5','7'];
-
-for ii = 1:length(ID_MAPLE)
-    
-    img_NA = dir('MAPLE2_NA*');
-    img_ANNEAL = dir('MAPLE2_110C*');
-    
-    %Read images into 4D RGB arrays
-    for i = 1:length(img_NA)
-        MAPLE_NA(:,:,:,i) = imread(img_NA(i).name);
-    end
-    
-    for i = 1:length(img_ANNEAL)
-        MAPLE_ANNEAL(:,:,:,i) = imread(img_ANNEAL(i).name);
-    end
-    
+%Read images into 4D RGB arrays
+for i = 1:length(img_NA)
+    MAPLE_NA(:,:,:,i) = imread(img_NA(i).name);
 end
+
+for i = 1:length(img_ANNEAL)
+    MAPLE_NA(:,:,:,i) = imread(img_ANNEAL(i).name);
+end
+
 % %Manually read images into RGB arrays
 % img_NA_009 = imread(MAPLE_NA(1).name,'png','BackgroundColor','none');
 % img_NA_011 = imread(MAPLE_NA(2).name,'png','BackgroundColor','none');
