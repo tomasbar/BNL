@@ -9,17 +9,147 @@ clc
 
 if isfolder('./processed_imgs') == 0
     mkdir('./processed_imgs')
+    addpath('./processed_imgs')
 end
 
-if isfolder('./processed_imgs/horiz') == 0
-    mkdir('./processed_imgs/horiz')
+if isfolder('./old') == 0
+    mkdir('./old')
 end
 
-if isfolder('./processed_imgs/comparisons') == 0
-    mkdir('./processed_imgs/comparisons')
+% if isfolder('./processed_imgs/horiz') == 0
+%     mkdir('./processed_imgs/horiz')
+% end
+% 
+% if isfolder('./processed_imgs/comparisons') == 0
+%     mkdir('./processed_imgs/comparisons')
+% end
+
+%% Plot MAPLE circular averages
+
+%Sample identifiers
+ID_MAPLE = ['2','3','4','5','7'];
+
+f1 = figure;
+f2 = figure;
+
+%Step thru MAPLE samples, by identifier in ID_MAPLE
+for ii = 1:length(ID_MAPLE)-1
+    
+    %Load sample filenames to be plotted
+    file_NA = dir(sprintf('MAPLE%c_NA_th0.220*.dat',ID_MAPLE(ii)));
+    file_ANNEAL = dir(sprintf('MAPLE%c_110C_th0.220*.dat',ID_MAPLE(ii)));
+    
+    if length(file_NA) > 1
+        error('TOO MANY DATA POINTS, CHECK FOR DUPLICATES')
+        exit
+    end
+    
+    if length(file_ANNEAL) > 1
+        error('TOO MANY DATA POINTS, CHECK FOR DUPLICATES')
+        exit
+    end
+    
+    [q_NA(:,ii), Iq_NA(:,ii)] = importCA(file_NA(1).name);
+    [q_ANNEAL(:,ii), Iq_ANNEAL(:,ii)] = importCA(file_ANNEAL.name);
+    
+    figure(f1)
+    plot(q_NA(:,1),Iq_NA(:,ii),'LineWidth',1.5)
+    hold on
+    
+    figure(f2)
+    plot(q_ANNEAL(:,1),Iq_ANNEAL(:,ii),'LineWidth',1.5)
+    hold on
 end
 
-%% PLOT MAPLE
+figure(f1)
+hold off
+title('MAPLE No Anneal Circular Average ')
+legend('MAPLE2','MAPLE3','MAPLE4','MAPLE5','MAPLE7')
+savefig('./processed_imgs/MAPLE_NA_CA')
+
+figure(f2)
+hold off
+title('MAPLE 110C Circular Average')
+legend('MAPLE2','MAPLE3','MAPLE4','MAPLE5','MAPLE7')
+savefig('./processed_imgs/MAPLE_ANNEAL_CA')
+
+close all
+clear -regexp \d
+
+%% Plot Spincast circular averages
+
+%Sample identifiers
+ID_SPIN= ['A','B','C','D'];
+
+f1 = figure;
+f2 = figure;
+f3 = figure;
+f4 = figure;
+
+%Step thru MAPLE samples, by identifier in ID_MAPLE
+for ii = 1:length(ID_SPIN)
+    
+    %Load sample filenames to be plotted
+    file_NA = dir(sprintf('SPIN%c_NoMEG_NA_th0.220*.dat',ID_SPIN(ii)));
+    file_ANNEAL = dir(sprintf('SPIN%c_NoMEG_110C_th0.220*.dat',ID_SPIN(ii)));
+    
+    file_MEG_NA = dir(sprintf('SPIN%c_MEG_NA_th0.220*.dat',ID_SPIN(ii)));
+    file_MEG_ANNEAL = dir(sprintf('SPIN%c_MEG_110C_th0.220*.dat',ID_SPIN(ii)));
+    
+    if (length(file_NA) || length(file_ANNEAL) || length(file_MEG_NA) || length(file_MEG_ANNEAL)) > 1
+        error('TOO MANY DATA POINTS, CHECK FOR DUPLICATES')
+        exit
+    end
+    
+    
+    [q_NA(:,ii), Iq_NA(:,ii)] = importCA(file_NA.name);
+    [q_ANNEAL(:,ii), Iq_ANNEAL(:,ii)] = importCA(file_ANNEAL.name);
+    
+    [q_NA_MEG(:,ii), Iq_NA_MEG(:,ii)] = importCA(file_MEG_NA.name);
+    [q_ANNEAL_MEG(:,ii), Iq_ANNEAL_MEG(:,ii)] = importCA(file_MEG_ANNEAL.name);
+    
+    figure(f1)
+    plot(q_NA(:,1),Iq_NA(:,ii),'LineWidth',1.5)
+    hold on
+    figure(f2)
+    plot(q_ANNEAL(:,1),Iq_ANNEAL(:,ii),'LineWidth',1.5)
+    hold on
+    figure(f3)
+    plot(q_NA_MEG(:,1),Iq_NA_MEG(:,ii),'LineWidth',1.5)
+    hold on
+    figure(f4)
+    plot(q_ANNEAL_MEG(:,1),Iq_ANNEAL_MEG(:,ii),'LineWidth',1.5)
+    hold on
+end
+
+figure(f1)
+hold off
+title('Spincast No Meg No Anneal Circular Average')
+legend('Spin A','Spin B','Spin C','Spin D')
+savefig('./processed_imgs/Spin_noMEG_NA_CA')
+
+figure(f2)
+hold off
+title('Spincast No Meg 110C Circular Average')
+legend('Spin A','Spin B','Spin C','Spin D')
+savefig('./processed_imgs/Spin_noMEG_ANNEAL_CA')
+
+figure(f3)
+hold off
+title('Spincast Meg No Anneal Circular Average')
+legend('Spin A','Spin B','Spin C','Spin D')
+savefig('./processed_imgs/Spin_MEG_NA_CA')
+
+figure(f4)
+hold off
+title('Spincast Meg 110C Circular Average')
+legend('Spin A','Spin B','Spin C','Spin D')
+savefig('./processed_imgs/Spin_MEG_ANNEAL_CA')
+
+close all
+clear -regexp \d
+
+%% PLOT q/qr MAPLE
 
 %Sample identifiers
 ID_MAPLE = ['2','3','4','5','7'];
@@ -96,7 +226,7 @@ for ii = 1:length(ID_MAPLE)
     clear f*
 end
 
-%% PLOT SPINCAST
+%% PLOT q/qr SPINCAST
 
 %Sample identifiers
 ID_SPIN= ['A','B','C','D'];
@@ -199,9 +329,6 @@ for ii = 1:length(ID_SPIN)
     close all
     clear f*
 end
-
-
-
 
 %% OLD
 % % Use for loops to read into 4D arrays
