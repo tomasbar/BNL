@@ -3,7 +3,6 @@
 
 clear all
 close all
-clc
 
 %% Set up, clean files
 
@@ -27,13 +26,13 @@ end
 %% Plot MAPLE circular averages
 
 %Sample identifiers
-ID_MAPLE = ['2','3','4','5','7'];
+ID_MAPLE = ['2','3','4','5'];
 
 f1 = figure;
 f2 = figure;
 
 %Step thru MAPLE samples, by identifier in ID_MAPLE
-for ii = 1:length(ID_MAPLE)-1
+for ii = 1:length(ID_MAPLE)
     
     %Load sample filenames to be plotted
     file_NA = dir(sprintf('MAPLE%c_NA_th0.220*.dat',ID_MAPLE(ii)));
@@ -52,26 +51,53 @@ for ii = 1:length(ID_MAPLE)-1
     [q_NA(:,ii), Iq_NA(:,ii)] = importCA(file_NA(1).name);
     [q_ANNEAL(:,ii), Iq_ANNEAL(:,ii)] = importCA(file_ANNEAL.name);
     
-    figure(f1)
-    plot(q_NA(:,1),Iq_NA(:,ii),'LineWidth',1.5)
-    hold on
-    
-    figure(f2)
-    plot(q_ANNEAL(:,1),Iq_ANNEAL(:,ii),'LineWidth',1.5)
-    hold on
 end
 
 figure(f1)
+plot(q_NA(:,1),Iq_NA(:,1),'LineWidth',1.5)
+hold on
+plot(q_ANNEAL(:,1),Iq_ANNEAL(:,1),'LineWidth',1.5)
 hold off
-title('MAPLE No Anneal Circular Average ')
-legend('MAPLE2','MAPLE3','MAPLE4','MAPLE5','MAPLE7')
-savefig('./processed_imgs/MAPLE_NA_CA')
+title('x1.5 Concentration All Circular Average ')
+legend('No Anneal','110C')
+savefig('./processed_imgs/highall_CA')
+print('./processed_imgs/highall_CA','-dpng','-r300')
 
 figure(f2)
+plot(q_NA(:,1),Iq_NA(:,2),'LineWidth',1.5)
+hold on
+plot(q_ANNEAL(:,1),Iq_ANNEAL(:,2),'LineWidth',1.5)
 hold off
-title('MAPLE 110C Circular Average')
-legend('MAPLE2','MAPLE3','MAPLE4','MAPLE5','MAPLE7')
-savefig('./processed_imgs/MAPLE_ANNEAL_CA')
+title('Baseline Circular Average ')
+legend('No Anneal','110C')
+savefig('./processed_imgs/baseline_CA')
+print('./processed_imgs/baseline_CA','-dpng','-r300')
+
+figure(f1)
+plot(q_NA(:,1),Iq_NA(:,3),'LineWidth',1.5)
+hold on
+plot(q_ANNEAL(:,1),Iq_ANNEAL(:,3),'LineWidth',1.5)
+hold off
+title('x1.5 Concentration Inorganic Circular Average ')
+legend('No Anneal','110C')
+savefig('./processed_imgs/highinorganic_CA')
+print('./processed_imgs/highinorganic_CA','-dpng','-r300')
+
+figure(f1)
+plot(q_NA(:,1),Iq_NA(:,4),'LineWidth',1.5)
+hold on
+plot(q_ANNEAL(:,1),Iq_ANNEAL(:,4),'LineWidth',1.5)
+hold off
+title('x1.5 Concentration Organic Circular Average ')
+legend('No Anneal','110C')
+savefig('./processed_imgs/highorganic_CA')
+print('./processed_imgs/highorganic_CA','-dpng','-r300')
+
+% figure(f2)
+% hold off
+% title('MAPLE 110C Circular Average')
+% legend('MAPLE2','MAPLE3','MAPLE4','MAPLE5','MAPLE7')
+% savefig('./processed_imgs/MAPLE_ANNEAL_CA')
 
 close all
 clear -regexp \d
